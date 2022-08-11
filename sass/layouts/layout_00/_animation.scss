@@ -1,0 +1,165 @@
+.cards-list-item__inner {
+    animation-name: randomFlip;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.55, 0.06, 0.68, 0.19);
+    animation-iteration-count: infinite;
+}
+
+@keyframes randomFlip {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    30%,
+    70% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.card-list__item:nth-child(1) .cards-list-item__inner {
+    animation: randomFlip 2s linear 31s;
+}
+
+.card-list__item:nth-child(2) .cards-list-item__inner {
+    animation: randomFlip 2s linear 5s;
+}
+
+.card-list__item:nth-child(3) .cards-list-item__inner {
+    animation: randomFlip 2s linear 2s;
+}
+
+.card-list__item:nth-child(4) .cards-list-item__inner {
+    animation: randomFlip 2s linear 4s;
+}
+
+.card-list__item:nth-child(5) .cards-list-item__inner {
+    animation: randomFlip 2s linear 8s;
+}
+
+.card-list__item:nth-child(6) .cards-list-item__inner {
+    animation: randomFlip 2s linear 25s;
+}
+
+.card-list__item:nth-child(7) .cards-list-item__inner {
+    animation: randomFlip 2s linear 12s;
+}
+
+.card-list__item:nth-child(8) .cards-list-item__inner {
+    animation: randomFlip 2s linear 15s;
+}
+
+.card-list__item:nth-child(9) .cards-list-item__inner {
+    animation: randomFlip 2s linear 22s;
+}
+
+.card-list__item:nth-child(10) .cards-list-item__inner {
+    animation: randomFlip 2s linear 35s;
+}
+
+.card-list__item:nth-child(11) .cards-list-item__inner {
+    animation: randomFlip 2s linear 18s;
+}
+
+.card-list__item:nth-child(12) .cards-list-item__inner {
+    animation: randomFlip 2s linear 26s;
+}
+
+.card-list__item:nth-child(13) .cards-list-item__inner {
+    animation: randomFlip 2s linear 3s;
+}
+
+.card-list__item:nth-child(14) .cards-list-item__inner {
+    animation: randomFlip 2s linear 33s;
+}
+
+.card-list__item:nth-child(15) .cards-list-item__inner {
+    animation: randomFlip 2s linear 0s;
+}
+
+.card-list__item:nth-child(16) .cards-list-item__inner {
+    animation: randomFlip 2s linear 16s;
+}
+
+.card-list__item:nth-child(17) .cards-list-item__inner {
+    animation: randomFlip 2s linear 19s;
+}
+
+.card-list__item:nth-child(18) .cards-list-item__inner {
+    animation: randomFlip 2s linear 30s;
+}
+
+.card-list__item:nth-child(19) .cards-list-item__inner {
+    animation: randomFlip 2s linear 20s;
+}
+
+.card-list__item:nth-child(20) .cards-list-item__inner {
+    animation: randomFlip 2s linear 13s;
+}
+
+.card-list__item:nth-child(21) .cards-list-item__inner {
+    animation: randomFlip 2s linear 11s;
+}
+
+.card-list__item:nth-child(23) .cards-list-item__inner {
+    animation: randomFlip 2s linear 21s;
+}
+
+.card-list__item:nth-child(22) .cards-list-item__inner {
+    animation: randomFlip 2s linear 7s;
+}
+
+.card-list__item:nth-child(24) .cards-list-item__inner {
+    animation: randomFlip 2s linear 32s;
+}
+
+.card-list__item:nth-child(25) .cards-list-item__inner {
+    animation: randomFlip 2s linear 14s;
+}
+
+.card-list__item:nth-child(26) .cards-list-item__inner {
+    animation: randomFlip 2s linear 17s;
+}
+
+.card-list__item:nth-child(27) .cards-list-item__inner {
+    animation: randomFlip 2s linear 24s;
+}
+
+.card-list__item:nth-child(28) .cards-list-item__inner {
+    animation: randomFlip 2s linear 27s;
+}
+
+.card-list__item:nth-child(29) .cards-list-item__inner {
+    animation: randomFlip 2s linear 6s;
+}
+
+.card-list__item:nth-child(30) .cards-list-item__inner {
+    animation: randomFlip 2s linear 34s;
+}
+
+.card-list__item:nth-child(31) .cards-list-item__inner {
+    animation: randomFlip 2s linear 23s;
+}
+
+.card-list__item:nth-child(32) .cards-list-item__inner {
+    animation: randomFlip 2s linear 9s;
+}
+
+.card-list__item:nth-child(33) .cards-list-item__inner {
+    animation: randomFlip 2s linear 36s;
+}
+
+.card-list__item:nth-child(34) .cards-list-item__inner {
+    animation: randomFlip 2s linear 10s;
+}
+
+.card-list__item:nth-child(35) .cards-list-item__inner {
+    animation: randomFlip 2s linear 29s;
+}
+
+.card-list__item:nth-child(36) .cards-list-item__inner {
+    animation: randomFlip 2s linear 28s;
+}
